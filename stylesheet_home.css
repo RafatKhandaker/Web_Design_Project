@@ -3,10 +3,43 @@
 head{}
 body{}
 
-#Background{}
-	#Workspace{}
-		#Header{}
-		#Navigation{}
+#Background{
+	background-color: 413B3F;
+	
+}
+	#Workspace{
+		background-color: Black;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+		#Header{
+			margin-right: auto;
+			margin-left: auto;
+		}
+		#Navigation{
+			height: 25px;
+			background-color: Black;
+			border-top: 5px solid #ED55F8;
+			border-bottom: 5px solid #ED55F8;
+			text-align: center;
+			width: 1000px;
+		}
+				#Navigation ul{
+					list-style-type: none;
+					padding: 0;
+					margin-top: 2px;
+					margin-bottom: 10;  /*may need change*/
+				}
+				#Navigation li{
+					font-family: sans-serif;
+					display: inline;
+					font-size: 16px;
+					font-weight: 700;
+					margin: 66px; 	
+					
+				}
+					
 		#Body{}
 		#Footer{}
 		
