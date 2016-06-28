@@ -1,0 +1,93 @@
+html{
+
+}
+
+body{
+	background-color: black;
+	
+}
+
+header{
+	background-color: black;
+	height: 300px;
+	width: 1418px;
+	/*border: 3px dotted;*/
+
+
+}
+/*.header-left{
+  height: 300px;
+  width: 472px;
+  background: white;
+  float: left;*/
+
+  
+}
+.header-center{
+  /*height: 300px;*/
+  width: 1200px;
+  float: left;
+
+
+}
+.logo{
+   /*float:left;*/
+   height: 299px;
+   width:200px;
+   padding-left:80px;
+
+   }
+
+
+/*.header-right{
+  height: 300px;
+  width: 472px;
+  background: blue;
+  float: left;*/
+
+
+
+
+
+
+/*******************************************************/
+/*                    NAVIGATION BAR                    */
+
+
+nav{
+	color: white;
+	/*border-bottom: 1px solid;
+    border-top: 1px solid;*/
+    color: white;
+    height: 25px;
+    text-align: left;
+    width: 1200px;
+}
+
+nav ul{
+	margin-bottom: 10px;
+	margin-top: 2px;
+	padding-left: 170px;
+
+}
+
+nav li{
+	display: inline;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 700px;
+	padding-left: 80px;
+	padding-right: 60px;
+
+
+
+
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+/******************************************************/
